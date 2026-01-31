@@ -25,3 +25,12 @@ Created as a portfolio project to practice and demonstrate:
 ## 📸 Demo (Example terminal session)
 
 <img width="824" height="448" alt="image" src="https://github.com/user-attachments/assets/a4521c74-6c4b-44d9-9f4e-93371a34ae2c" />
+
+## 🛠️ How to Run
+### Option 1 – Visual Studio 2022/2026 (recommended for Windows)
+
+- Clone or download the repository
+- Open the folder (or .sln file if you have one) in Visual Studio
+- Set configuration to Release | x64
+- Build → Build Solution (Ctrl+Shift+B)
+- Run without debugging (Ctrl+F5)
