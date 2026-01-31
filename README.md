@@ -9,13 +9,13 @@
 Simple yet robust **console-based Number Guessing Game** written in **C++**.  
 The computer picks a random number between 1 and 100, and you try to guess it with hints ("Too high!" / "Too low!").  
 
-Created as a portfolio project to practice and demonstrate:
+**📰Created as a portfolio project to practice and demonstrate:**
 - Random number generation (`rand()` + `srand()`)
 - Input validation & error recovery
 - Loop control (`do-while` + `while`)
 - Clean, user-friendly console interface
 
-**Main features**
+**📋Main features**
 - Random secret number (1–100) generated each round
 - Unlimited attempts with attempt counter
 - Helpful feedback after each guess
@@ -86,17 +86,18 @@ if (guess == secret) {
 - Simple menu / statistics screen
 
 ## 👨‍💻 Author
-Anri
-C++ Developer (Beginner → Intermediate)
-📍 Batumi / Georgia 🇬🇪
-GitHub: AnReXx2
-LinkedIn: https://github.com/AnReXx2
-Email: anrid040@gmail.com
-Made with ❤️ in 2026, Georgia
+- name: Anri
+- C++ Developer (Beginner → Intermediate)
+- 📍location: Batumi / Georgia 🇬🇪
+- GitHub: AnReXx2
+- LinkedIn: https://github.com/AnReXx2
+- Email: anrid040@gmail.com
+- Made with ❤️ in 2026, Georgia
 
 ## 📜 License
 - MIT License — free to use, modify, share.
 
 ## ⭐ Support the project
 - If you like this little game or find the code clean & educational — please star ⭐ it and watch for updates.
-## Thank you!
+## ❤️❤️Thank you!
+
