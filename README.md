@@ -37,12 +37,12 @@ The computer picks a random number between 1 and 100, and you try to guess it wi
 
 ## Option 2 – Command line (g++ / MinGW / Linux / macOS)
 ```bash
-git clone https://github.com/AnReXx2/NumberGuessingGame.git
-cd NumberGuessingGame
-g++ -std=c++17 main.cpp -o numberguess
-./numberguess         # Linux / macOS
+git clone git@github.com:AnReXx2/Number_guessing_console_game.git
+cd Number_guessing_console_game
+g++ -std=c++17 main.cpp -o Number_guessing_console_game
+./Number_guessing_console_game         # Linux / macOS
 # or on Windows:
-numberguess.exe
+Number_guessing_console_game.exe
 ```
 # ⚠️Requirements: Any C++17 compatible compiler (g++ 7+, MSVC 2019+, clang 5+)
 
@@ -100,4 +100,5 @@ if (guess == secret) {
 ## ⭐ Support the project
 - If you like this little game or find the code clean & educational — please star ⭐ it and watch for updates.
 ## ❤️❤️Thank you!
+
 
