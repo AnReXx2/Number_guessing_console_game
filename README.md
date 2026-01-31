@@ -35,6 +35,68 @@ Created as a portfolio project to practice and demonstrate:
 - Build → Build Solution (Ctrl+Shift+B)
 - Run without debugging (Ctrl+F5)
 
+## Option 2 – Command line (g++ / MinGW / Linux / macOS)
+```bash
+git clone https://github.com/AnReXx2/NumberGuessingGame.git
+cd NumberGuessingGame
+g++ -std=c++17 main.cpp -o numberguess
+./numberguess         # Linux / macOS
+# or on Windows:
+numberguess.exe
+```
+# ⚠️Requirements: Any C++17 compatible compiler (g++ 7+, MSVC 2019+, clang 5+)
 
+## ⚙️ Technologies & Key Concepts
+- Language: C++17
+- Headers: <iostream>, <cstdlib>, <ctime>, <limits>
+- Standard library only — no external dependencies
+- Randomness: srand(time(NULL)) + rand()
+- Input safety: cin.fail(), cin.clear(), cin.ignore(numeric_limits<streamsize>::max(), '\n')
+- Code style: clean, commented, consistent
 
+## 🔍 What makes this implementation solid?
+```code
+// Safe random number (1 to 100)
+int secret = (rand() % 100) + 1;
 
+// Input validation inside loop
+if (cin.fail()) {
+    cout << "Please enter a number!\n";
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    continue;  // Don't count invalid attempts
+}
+
+// Win condition
+if (guess == secret) {
+    cout << "Congratulations! You won in " << attempts << " attempt(s)!\n";
+    won = true;
+}
+```
+- Program cannot crash on bad input
+- No memory leaks, no undefined behavior
+- Clear separation: new game → new random number
+
+## 🚀 Future Development (To-Do)
+
+- Difficulty levels (Easy: 1–50, Hard: 1–1000, limited attempts)
+- Save high score / best attempts to file (fstream)
+- Add hints after X attempts
+- OOP refactor (class Game with methods)
+- Simple menu / statistics screen
+
+## 👨‍💻 Author
+Anri
+C++ Developer (Beginner → Intermediate)
+📍 Batumi / Georgia 🇬🇪
+GitHub: AnReXx2
+LinkedIn: https://github.com/AnReXx2
+Email: anrid040@gmail.com
+Made with ❤️ in 2026, Georgia
+
+## 📜 License
+- MIT License — free to use, modify, share.
+
+## ⭐ Support the project
+- If you like this little game or find the code clean & educational — please star ⭐ it and watch for updates.
+## Thank you!
