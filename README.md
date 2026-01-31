@@ -1,6 +1,6 @@
 # 🚀 C++ Number Guessing Game v1.0
 
-[![GitHub stars](https://img.shields.io/github/stars/AnReXx2/NumberGuessingGame?style=social)](https://github.com/AnReXx2/Number_guessing_console_game)
+[![GitHub stars](https://img.shields.io/github/stars/AnReXx2/Number_guessing_console_game?style=social)](https://github.com/AnReXx2/Number_guessing_console_game)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![C++](https://img.shields.io/badge/C++-17-blue?logo=c%2B%2B&logoColor=white)](https://en.wikipedia.org/wiki/C%2B%2B17)
 
@@ -100,5 +100,6 @@ if (guess == secret) {
 ## ⭐ Support the project
 - If you like this little game or find the code clean & educational — please star ⭐ it and watch for updates.
 ## ❤️❤️Thank you!
+
 
 
